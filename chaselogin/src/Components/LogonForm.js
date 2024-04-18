@@ -25,7 +25,7 @@ export const LogonForm = () => {
     }
 
     // Check username and password validation
-    if (username !== "admin" || password !== "admin") {
+    if (username !== "joperry" || password !== "chancey!") {
       setIsError(true);
       return;
     }
